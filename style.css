@@ -24,17 +24,15 @@ ul{
 }
 /* hover in cart item */
 .cart-image{
-    height: 250px;
+    width: 100%;
     overflow: hidden;
 }
 .cart-image img{
     display: block;
     transition: all .4s;
-    overflow: hidden;
 }
 .cart-item:hover .cart-image img{
     transform: scale(1.15);
-    overflow: hidden;
 }
 
 .cart-item img{
